@@ -8,7 +8,7 @@ export const environment = {
   personal: {
     caricature: "gbastos-illustration@2x.png",
     name: "Lu Junye(Torres)",
-    birth: "1993-06-29",
+    birth: "2004-02-19",
     email: "15275214797@163.com",
     phone: "+86 15275214797",
     location: "Qingdao, Shandong, China"
