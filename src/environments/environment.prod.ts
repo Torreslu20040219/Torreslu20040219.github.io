@@ -2,7 +2,7 @@ export const environment = {
   production: true,
   // replace the data below with your personal data
   personal: {
-    caricature: "gbastos-illustration@2x.png",
+    caricature: "gbastos-illustration@2x.jpg",
     name: "Lu Junye(Torres)",
     birth: "2004-02-19",
     email: "15275214797@163.com",
