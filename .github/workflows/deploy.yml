@@ -40,7 +40,7 @@ jobs:
           # 创建部署目录
           mkdir -p deploy
           # 复制英语版本到根目录（因为只有一种语言）
-          cp -r dist/en/* deploy/
+          cp -r dist/* deploy/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
