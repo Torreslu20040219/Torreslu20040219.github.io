@@ -7,11 +7,11 @@ export const environment = {
   // replace the data below with your personal data
   personal: {
     caricature: "gbastos-illustration@2x.png",
-    name: "Guilherme Borges Bastos",
+    name: "Lu Junye(Torres)",
     birth: "1993-06-29",
-    email: "guilhermeborgesbastos@gmail.com",
-    phone: "+31 68 733 3020",
-    location: "Gouda, South Holland, Netherlands"
+    email: "15275214797@163.com",
+    phone: "+86 15275214797",
+    location: "Qingdao, Shandong, China"
   },
   // replace the dummy data below with the real firebase configs
   firebaseConfig: {
