@@ -5,7 +5,7 @@
     </div>
 
     <div class="child logo-container" itemprop="brand" itemscope itemtype="https://schema.org/Brand">
-        <a (click)="resetMenu()" href="#" class="logo" itemprop="name" itemprop="logo">gbastos</a>
+        <a (click)="resetMenu()" href="#" class="logo" itemprop="name" itemprop="logo">Torres</a>
     </div>
 
     <div class="child nav-container" #nav [hidden]="!hasMenuToggled" itemscope itemtype="https://schema.org/SiteNavigationElement">
@@ -19,7 +19,7 @@
         </ul>
     </div>
 
-    <div class="child language-container">
+    <!-- <div class="child language-container">
         <div class="frame">
             <ul>
                 <li itemprop="availableLanguage" itemscope itemtype="https://schema.org/Language">
@@ -30,7 +30,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> -->
 
     <div class="child share-container" #shareBtn>
         <fa-icon [icon]="faShareAlt" class="icon" (click)="share()" alt="share" itemprop="share"></fa-icon>
