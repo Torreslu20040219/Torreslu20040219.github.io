@@ -1,69 +1,35 @@
 [
     {
-        "thumbnail": "assets/posts/post-11-03-2019.jpg",
-        "http": "https://www.linkedin.com/pulse/anti-traversing-2d-array-formula-guilherme-borges-bastos/",
-        "date": "11-03-2019",
+        "thumbnail": "assets/posts/2025-06-01.jpg",
+        "http": "",
+        "date": "06-01-2025",
         "internationalizations": [
             {
                 "language": "en",
-                "title": "The anti-traversing 2D Array formula.",
-                "description": "Have you ever thought about the <b>mathematical relation</b> between the <i>columns</i> and <i>rows</i> of a bidimensional array <i>(2d matrix)</i>? This data structure hides a <b>data location formula</b> that helped me to avoid the <i>time complexity of O(n²)</i>, which is a terrible scenario, turning it into a <i>constant time complexity - O(1)</i>. A full explanation, with real test cases and Unit Tests are waiting for you."
+                "title": "Wincom Group Shanghai - Intern, Medical Department",
+                "description": "<b>Wincom Group Shanghai, CN</b><br><br>Intern, Medical Department 06/2025-09/2025<br><br>• Adjusted energy- and high-protein-adapted meal plans using Excel formulas based on template models.<br>• Conducted quantitative market analysis of weight-loss foods and platforms, including the global GLP-1 receptor agonist market, using secondary research, data cross-validation, and CAGR modeling; analyzed market size, growth dynamics, competitive landscape, business models, medical evidence, and investment risks.<br>• Designed promotional materials for weight-loss platform exhibitions and created/optimized smart service solution PPTs for hospital weight management centers."
             },
             {
                 "language": "pt",
-                "title": "A fórmula de matriz 2D anti-deslocamento.",
-                "description": "Você já pensou na <b>relação matemática</b> entre as<i> colunas</i> e as <i>linhas</i> de uma matriz bidimensional <i>(matriz 2d)</i>? Essa estrutura de dados oculta uma <b>fórmula de localização de dados</b> que me ajudou a evitar a <i>complexidade de tempo de O(n²)</i>, que é um cenário péssimo, transformando-a em uma <i>complexidade do tempo constante - O(1)</i>. Uma explicação completa, com casos de teste reais e testes de unidade, está esperando por você."
+                "title": "Wincom Group Shanghai - Estagiário, Departamento Médico",
+                "description": "<b>Wincom Group Shanghai, CN</b><br><br>Estagiário, Departamento Médico 06/2025-09/2025<br><br>• Ajustei planos de refeições adaptados para energia e alta proteína usando fórmulas do Excel baseadas em modelos de template.<br>• Realizei análise quantitativa de mercado de alimentos e plataformas para perda de peso, incluindo o mercado global de agonistas do receptor GLP-1, usando pesquisa secundária, validação cruzada de dados e modelagem CAGR; analisei tamanho do mercado, dinâmicas de crescimento, panorama competitivo, modelos de negócios, evidências médicas e riscos de investimento.<br>• Projetei materiais promocionais para exposições de plataformas de perda de peso e criei/otimizei PPTs de soluções de serviços inteligentes para centros de gerenciamento de peso hospitalares."
             }
         ]
     },
     {
-        "thumbnail": "assets/posts/post-01-15-2019.jpg",
-        "http": "https://www.linkedin.com/pulse/em-2019-saia-do-desemprego-seja-voc%C3%AA-um-web-developer-borges-bastos/",
-        "date": "01-15-2019",
+        "thumbnail": "assets/posts/2024-06-01.jpg",
+        "http": "",
+        "date": "06-01-2024",
         "internationalizations": [
             {
                 "language": "en",
-                "title": "In 2019, get out of unemployment! Be a Web Developer.",
-                "description": "There were numerous vacancies for <i>web developers</i> on the wall, at the same time, <b>12.7 million people were unemployed</b> in Brazil, such a sad situation persisted in my mind. Back at my house, I've recalled a free course, offered by the renowned <i>Bob Tabor (Senior Program Manager at Microsoft)</i>, present at Microsoft Virtual Academy."
+                "title": "Qilu Hospital of Shandong University (Qingdao) - Intern, Health Management Center & Clinical Nutrition Department",
+                "description": "<b>Qilu Hospital of Shandong University (Qingdao) Qingdao, CN</b><br><br>Intern, Health Management Center & Clinical Nutrition Department 06/2024-08/2024<br><br><b>Health Management Center:</b><br>• Collected and analyzed health assessment data, including height, weight, and BMI, and provided guidance to individuals with BMI > 24 on obesity risks and body composition testing.<br>• Assisted in scheduling CT scans and escorted patients to designated rooms.<br>• Learned bone density measurement techniques and assisted physicians with patient positioning and data entry.<br>• Gained experience in carotid artery sclerosis detection and Doppler ultrasound, applying knowledge to assess fatty liver classification.<br>• Compiled and analyzed health examination data for government departments, summarizing multiple common conditions and visualizing yearly trends and inter-department differences using statistical charts.<br><br><b>Clinical Nutrition Department:</b><br>• Studied clinical nutrition literature and supported consultations with nutritionists.<br>• Assisted in dietary interventions for patients, providing advice based on their health conditions and daily meals.<br>• Distributed relevant dietary materials (e.g., for hyperuricemia and obesity) and reference meal plans.<br>• Participated in diabetes consultations, explaining the Balanced Diet Pyramid and providing personalized dietary advice based on coexisting conditions.<br>• Assisted in revising educational PPTs on nutrition and exercise guidelines for public health.<br><br><b>Honors:</b> Outstanding Intern Award | Recommendation letter from Chief Physician of the Clinical Nutrition Department"
             },
             {
                 "language": "pt",
-                "title": "Em 2019, saia do desemprego! Seja você um Web Developer.",
-                "description": "Lá estavam no mural, inúmeras vagas para desenvolvedor web. E ao mesmo tempo, haviam <b>12,7 Milhões de compatriotas desempregados</b> e tais vagas em aberto ficaram matutando em minha cabeça. De volta à minha casa, me recordo de um curso gratuito, disponibilizado pelo renomado <i>Bob Tabor (Senior Program Manager na Microsoft)</i>, presente na Microsoft Virtual Academy."
-            }
-        ]
-    },
-    {
-        "thumbnail": "assets/posts/post-07-10-2016.jpg",
-        "http": "https://www.linkedin.com/pulse/map-item-navigation-android-opensource-en-guilherme-borges-bastos/",
-        "date": "07-10-2016",
-        "internationalizations": [
-            {
-                "language": "en",
-                "title": "Map Item Navigation for Android - <i>Open-source component</i>.",
-                "description": "For great user experience, the usage of maps together with the ordered list is used very often in mobile applications. This article presents an open-source application for Android that provides a fully functional component."
-            },
-            {
-                "language": "pt",
-                "title": "Navegação por Item no Mapa para Android - <i>Componente de código aberto</i>.",
-                "description": "Para uma ótima experiência do usuário, o uso de mapas junto com a lista ordenada é usado com muita frequência em aplicativos móveis. Este artigo apresenta um aplicativo de código aberto para Android que fornece um componente totalmente funcional."
-            }
-        ]
-    },
-    {
-        "thumbnail": "assets/posts/post-05-07-2016.jpg",
-        "http": "https://www.linkedin.com/pulse/geo-distance-search-mysql-php-guilherme-borges-bastos/",
-        "date": "05-07-2016",
-        "internationalizations": [
-            {
-                "language": "en",
-                "title": "Geo Distance search with MySQL & PHP.",
-                "description": "Nowadays, <b>geolocation</b> is essential for most of the basic daily activities. Who never have asked Google where is the closest market?  In this article, I show a practical example of how to create a <i>SQL Query</i> that does a geolocational search based on a radius range and a fixed geolocational point."
-            },
-            {
-                "language": "pt",
-                "title": "Pesquisa por distância geográfica com MySQL e PHP.",
-                "description": "Atualmente, a <b>geolocalização</b> é essencial para a maioria das atividades diárias básicas. Quem nunca perguntou ao Google onde está o mercado mais próximo? Neste artigo, mostro um exemplo prático de como criar uma <i>consulta SQL</i> a qual faz uma pesquisa geolocalizada com base em um raio de abrangência e um ponto geográfico fixo."
+                "title": "Hospital Qilu da Universidade de Shandong (Qingdao) - Estagiário, Centro de Gestão de Saúde e Departamento de Nutrição Clínica",
+                "description": "<b>Hospital Qilu da Universidade de Shandong (Qingdao) Qingdao, CN</b><br><br>Estagiário, Centro de Gestão de Saúde e Departamento de Nutrição Clínica 06/2024-08/2024<br><br><b>Centro de Gestão de Saúde:</b><br>• Coletei e analisei dados de avaliação de saúde, incluindo altura, peso e IMC, e forneci orientação a indivíduos com IMC > 24 sobre riscos de obesidade e testes de composição corporal.<br>• Auxiliei no agendamento de exames de TC e acompanhei pacientes até as salas designadas.<br>• Aprendi técnicas de medição de densidade óssea e auxiliei médicos com posicionamento de pacientes e entrada de dados.<br>• Adquiri experiência em detecção de esclerose da artéria carótida e ultrassonografia Doppler, aplicando conhecimentos para avaliar a classificação de fígado gorduroso.<br>• Compilei e analisei dados de exames de saúde para departamentos governamentais, resumindo várias condições comuns e visualizando tendências anuais e diferenças interdepartamentais usando gráficos estatísticos.<br><br><b>Departamento de Nutrição Clínica:</b><br>• Estudei literatura de nutrição clínica e apoiei consultas com nutricionistas.<br>• Auxiliei em intervenções dietéticas para pacientes, fornecendo conselhos com base em suas condições de saúde e refeições diárias.<br>• Distribuí materiais dietéticos relevantes (por exemplo, para hiperuricemia e obesidade) e planos de refeições de referência.<br>• Participei de consultas de diabetes, explicando a Pirâmide Alimentar Balanceada e fornecendo conselhos dietéticos personalizados com base em condições coexistentes.<br>• Auxiliei na revisão de PPTs educacionais sobre diretrizes de nutrição e exercícios para saúde pública.<br><br><b>Honras:</b> Prêmio de Estagiário Destacado | Carta de recomendação do Médico-Chefe do Departamento de Nutrição Clínica"
             }
         ]
     }
