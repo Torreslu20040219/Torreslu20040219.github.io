@@ -43,10 +43,12 @@ jobs:
           # 创建部署目录
           mkdir -p deploy
           # 复制英语版本到根目录（默认语言）
-          cp -r dist/en/* deploy/
+          # 实际文件在 dist/en/en/ 目录下
+          cp -r dist/en/en/* deploy/
           # 复制葡萄牙语版本到 /pt 目录
+          # 实际文件在 dist/pt/pt/ 目录下
           mkdir -p deploy/pt
-          cp -r dist/pt/* deploy/pt/
+          cp -r dist/pt/pt/* deploy/pt/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
