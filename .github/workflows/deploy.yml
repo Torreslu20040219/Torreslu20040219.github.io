@@ -33,7 +33,7 @@ jobs:
         run: npm ci --force
 
       - name: Build English version
-        run: ng build --configuration=production --base-href=/
+        run: npx ng build --configuration=production --base-href=/
 
       - name: Prepare deployment
         run: |
