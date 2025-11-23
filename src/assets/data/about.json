@@ -11,19 +11,9 @@
     ],
     "medias": [        
         {
-            "icon": "linkedin",
-            "title": "LinkedIn",
-            "http": "https://www.linkedin.com/in/guilhermeborgesbastos/"
-        },
-        {
             "icon": "github",
             "title": "GitHub",
             "http": "https://github.com/Torreslu20040219"
-        },
-        {
-            "icon": "facebook",
-            "title": "Facebook",
-            "http": "https://www.facebook.com/guilherme.borgesbastos"
         }
     ],
     "hobbies": [        
