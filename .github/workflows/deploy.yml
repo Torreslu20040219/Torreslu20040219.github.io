@@ -33,15 +33,20 @@ jobs:
         run: npm ci --force
 
       - name: Build English version
-        run: npx ng build --configuration=production --base-href=/
+        run: npx ng build --configuration=en,production --base-href=/
+
+      - name: Build Portuguese version
+        run: npx ng build --configuration=pt,production
 
       - name: Prepare deployment
         run: |
           # 创建部署目录
           mkdir -p deploy
-          # 复制构建输出到部署目录
-          # 构建输出在 dist/live-resume/ 目录下
-          cp -r dist/live-resume/* deploy/
+          # 复制英语版本到根目录（默认语言）
+          cp -r dist/en/* deploy/
+          # 复制葡萄牙语版本到 /pt 目录
+          mkdir -p deploy/pt
+          cp -r dist/pt/* deploy/pt/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
