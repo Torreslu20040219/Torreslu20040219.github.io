@@ -6,7 +6,7 @@
         "endAt": "07-31-2025",
         "companyName": "Macau University of Science and Technology",
         "website": "",
-        "logo": "assets/template/experience/logo/facil-logo.png",
+        "logo": "",
         "internationalizations": [
             {
                 "language": "pt",
@@ -36,7 +36,7 @@
         "endAt": "06-30-2025",
         "companyName": "State Key Laboratory of Quality Research in Chinese Medicines, MUST",
         "website": "",
-        "logo": "assets/template/experience/logo/etatica-logo.png",
+        "logo": "",
         "internationalizations": [
             {
                 "language": "pt",
@@ -65,8 +65,8 @@
         "startAt": "07-01-2024",
         "endAt": "08-31-2024",
         "companyName": "The University of Hong Kong",
-        "website": "https://www.hku.hk/",
-        "logo": "assets/template/experience/logo/deevo-logo.png",
+        "website": "",
+        "logo": "",
         "internationalizations": [
             {
                 "language": "pt",
@@ -96,7 +96,7 @@
         "endAt": "09-30-2024",
         "companyName": "MUST LIU's Innovation and Technology Center",
         "website": "",
-        "logo": "assets/template/experience/logo/skydreamer-logo.png",
+        "logo": "",
         "internationalizations": [
             {
                 "language": "pt",
