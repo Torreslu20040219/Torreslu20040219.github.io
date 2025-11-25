@@ -78,6 +78,14 @@
         </context-group>
         <note priority="1" from="description">nav</note>
       </trans-unit>
+      <trans-unit id="synopsis" datatype="html">
+        <source>I make full use of the winter and summer vacations to conduct internships on career exploration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/posts/posts.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">posts</note>
+      </trans-unit>
       <trans-unit id="aboutMe" datatype="html">
         <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>About me<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
