@@ -5,8 +5,8 @@
         "startAt": "04-01-2025",
         "endAt": "07-31-2025",
         "companyName": "Macau University of Science and Technology",
-        "website": "",
-        "logo": "",
+        "website": "https://www.must.edu.mo/",
+        "logo": "assets/template/experience/logo/must-log.png",
         "internationalizations": [
             {
                 "language": "pt",
@@ -35,8 +35,8 @@
         "startAt": "03-01-2025",
         "endAt": "06-30-2025",
         "companyName": "State Key Laboratory of Quality Research in Chinese Medicines, MUST",
-        "website": "",
-        "logo": "",
+        "website": "https://www.must.edu.mo/",
+        "logo": "assets/template/experience/logo/must-log.png",
         "internationalizations": [
             {
                 "language": "pt",
@@ -65,8 +65,8 @@
         "startAt": "07-01-2024",
         "endAt": "08-31-2024",
         "companyName": "The University of Hong Kong",
-        "website": "",
-        "logo": "",
+        "website": "https://icb.hku.hk/chs",
+        "logo": "assets/template/experience/logo/icb-log.png",
         "internationalizations": [
             {
                 "language": "pt",
@@ -95,8 +95,8 @@
         "startAt": "09-01-2023",
         "endAt": "09-30-2024",
         "companyName": "MUST LIU's Innovation and Technology Center",
-        "website": "",
-        "logo": "",
+        "website": "https://www.must.edu.mo/",
+        "logo": "assets/template/experience/logo/must-log.png",
         "internationalizations": [
             {
                 "language": "pt",
