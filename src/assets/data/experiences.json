@@ -1,10 +1,10 @@
 [
     {
-        "id": 1,
+        "id": 4,
         "position": 1,
-        "startAt": "04-01-2025",
-        "endAt": "07-31-2025",
-        "companyName": "Macau University of Science and Technology",
+        "startAt": "09-01-2023",
+        "endAt": "09-30-2024",
+        "companyName": "MUST LIU's Innovation and Technology Center",
         "website": "https://www.must.edu.mo/",
         "logo": "assets/template/experience/logo/must-log.png",
         "internationalizations": [
@@ -13,55 +13,25 @@
                 "city": "Macau",
                 "country": "China",
                 "role": "Student Research Assistant",
-                "description": "<b>Seasonal and Follow-Up Factors in Hypertensive Populations in China: A Cross-Sectional Study</b><br><br>• Used AI tools to categorize blood pressure measurements by season and analyzed correlations between autumn/winter and spring/summer hypertension incidence.<br>• Employed Excel functions to calculate differences between baseline and first follow-up blood pressure values, and performed gender-based comparative analysis.<br>• Classified follow-ups by telephone, home visit, and outpatient visits; conducted annual statistical analysis of follow-up distribution and corresponding blood pressure measurements."
+                "description": "<b>Nutrient Stability and Heat-Induced Release in Plant-Based Meat Analogues</b><br><br>• Developed simplified plant-based meat products using various ingredients (black beans, sweet grass root, konjac powder, cashews, walnuts, MSG, etc.), optimizing production through iterative mixing and addition of konjac powder to achieve meat-like appearance; conducted sensory evaluation with graduate team to refine preparation process.<br>• Collaborated with graduate students to recruit and screen participants for sensory evaluation experiments, coordinating assessments of different product types and textures.<br>• Collected and managed sensory data (color, aroma, flavor, texture), performed statistical analysis, and visualized results using pie charts to provide improvement recommendations for product taste and texture."
             },
             {
                 "language": "en",
                 "city": "Macau",
                 "country": "China",
                 "role": "Student Research Assistant",
-                "description": "<b>Seasonal and Follow-Up Factors in Hypertensive Populations in China: A Cross-Sectional Study</b><br><br>• Used AI tools to categorize blood pressure measurements by season and analyzed correlations between autumn/winter and spring/summer hypertension incidence.<br>• Employed Excel functions to calculate differences between baseline and first follow-up blood pressure values, and performed gender-based comparative analysis.<br>• Classified follow-ups by telephone, home visit, and outpatient visits; conducted annual statistical analysis of follow-up distribution and corresponding blood pressure measurements."
+                "description": "<b>Nutrient Stability and Heat-Induced Release in Plant-Based Meat Analogues</b><br><br>• Developed simplified plant-based meat products using various ingredients (black beans, sweet grass root, konjac powder, cashews, walnuts, MSG, etc.), optimizing production through iterative mixing and addition of konjac powder to achieve meat-like appearance; conducted sensory evaluation with graduate team to refine preparation process.<br>• Collaborated with graduate students to recruit and screen participants for sensory evaluation experiments, coordinating assessments of different product types and textures.<br>• Collected and managed sensory data (color, aroma, flavor, texture), performed statistical analysis, and visualized results using pie charts to provide improvement recommendations for product taste and texture."
             }
         ],
         "technologies": [
-            "AI Tools", "Excel", "Data Analysis", "Statistics"
+            "Food Science", "Sensory Evaluation", "Statistical Analysis", "Data Visualization"
         ],
         "medias": [],
-        "backgroundUrl": "assets/template/experience/uberaba.jpg"
-    },
-    {
-        "id": 2,
-        "position": 2,
-        "startAt": "03-01-2025",
-        "endAt": "06-30-2025",
-        "companyName": "State Key Laboratory of Quality Research in Chinese Medicines, MUST",
-        "website": "https://www.must.edu.mo/",
-        "logo": "assets/template/experience/logo/must-log.png",
-        "internationalizations": [
-            {
-                "language": "pt",
-                "city": "Macau",
-                "country": "China",
-                "role": "Student Research Assistant",
-                "description": "<b>Traditional Chinese Medicinal Materials and Experimental Mouse Data Analysis</b><br><br>• Analyzed rat plasma samples to identify and classify metabolic compounds using R programming.<br>• Determined peak positions and corresponding peak areas for each metabolite based on infrared spectroscopy and relative molecular mass.<br>• Compiled and tabulated average peak areas and retention times for each compound to identify consistent patterns and trends."
-            },
-            {
-                "language": "en",
-                "city": "Macau",
-                "country": "China",
-                "role": "Student Research Assistant",
-                "description": "<b>Traditional Chinese Medicinal Materials and Experimental Mouse Data Analysis</b><br><br>• Analyzed rat plasma samples to identify and classify metabolic compounds using R programming.<br>• Determined peak positions and corresponding peak areas for each metabolite based on infrared spectroscopy and relative molecular mass.<br>• Compiled and tabulated average peak areas and retention times for each compound to identify consistent patterns and trends."
-            }
-        ],
-        "technologies": [
-            "R Programming", "Metabolomics", "Infrared Spectroscopy", "Data Analysis"
-        ],
-        "medias": [],
-        "backgroundUrl": "assets/template/experience/rio.jpg"
+        "backgroundUrl": "assets/template/experience/utrecht.jpg"
     },
     {
         "id": 3,
-        "position": 3,
+        "position": 2,
         "startAt": "07-01-2024",
         "endAt": "08-31-2024",
         "companyName": "The University of Hong Kong",
@@ -90,11 +60,11 @@
         "backgroundUrl": "assets/template/experience/sao-paulo.jpg"
     },
     {
-        "id": 4,
-        "position": 4,
-        "startAt": "09-01-2023",
-        "endAt": "09-30-2024",
-        "companyName": "MUST LIU's Innovation and Technology Center",
+        "id": 2,
+        "position": 3,
+        "startAt": "03-01-2025",
+        "endAt": "06-30-2025",
+        "companyName": "State Key Laboratory of Quality Research in Chinese Medicines, MUST",
         "website": "https://www.must.edu.mo/",
         "logo": "assets/template/experience/logo/must-log.png",
         "internationalizations": [
@@ -103,20 +73,50 @@
                 "city": "Macau",
                 "country": "China",
                 "role": "Student Research Assistant",
-                "description": "<b>Nutrient Stability and Heat-Induced Release in Plant-Based Meat Analogues</b><br><br>• Developed simplified plant-based meat products using various ingredients (black beans, sweet grass root, konjac powder, cashews, walnuts, MSG, etc.), optimizing production through iterative mixing and addition of konjac powder to achieve meat-like appearance; conducted sensory evaluation with graduate team to refine preparation process.<br>• Collaborated with graduate students to recruit and screen participants for sensory evaluation experiments, coordinating assessments of different product types and textures.<br>• Collected and managed sensory data (color, aroma, flavor, texture), performed statistical analysis, and visualized results using pie charts to provide improvement recommendations for product taste and texture."
+                "description": "<b>Traditional Chinese Medicinal Materials and Experimental Mouse Data Analysis</b><br><br>• Analyzed rat plasma samples to identify and classify metabolic compounds using R programming.<br>• Determined peak positions and corresponding peak areas for each metabolite based on infrared spectroscopy and relative molecular mass.<br>• Compiled and tabulated average peak areas and retention times for each compound to identify consistent patterns and trends."
             },
             {
                 "language": "en",
                 "city": "Macau",
                 "country": "China",
                 "role": "Student Research Assistant",
-                "description": "<b>Nutrient Stability and Heat-Induced Release in Plant-Based Meat Analogues</b><br><br>• Developed simplified plant-based meat products using various ingredients (black beans, sweet grass root, konjac powder, cashews, walnuts, MSG, etc.), optimizing production through iterative mixing and addition of konjac powder to achieve meat-like appearance; conducted sensory evaluation with graduate team to refine preparation process.<br>• Collaborated with graduate students to recruit and screen participants for sensory evaluation experiments, coordinating assessments of different product types and textures.<br>• Collected and managed sensory data (color, aroma, flavor, texture), performed statistical analysis, and visualized results using pie charts to provide improvement recommendations for product taste and texture."
+                "description": "<b>Traditional Chinese Medicinal Materials and Experimental Mouse Data Analysis</b><br><br>• Analyzed rat plasma samples to identify and classify metabolic compounds using R programming.<br>• Determined peak positions and corresponding peak areas for each metabolite based on infrared spectroscopy and relative molecular mass.<br>• Compiled and tabulated average peak areas and retention times for each compound to identify consistent patterns and trends."
             }
         ],
         "technologies": [
-            "Food Science", "Sensory Evaluation", "Statistical Analysis", "Data Visualization"
+            "R Programming", "Metabolomics", "Infrared Spectroscopy", "Data Analysis"
         ],
         "medias": [],
-        "backgroundUrl": "assets/template/experience/utrecht.jpg"
+        "backgroundUrl": "assets/template/experience/rio.jpg"
+    },
+    {
+        "id": 1,
+        "position": 4,
+        "startAt": "04-01-2025",
+        "endAt": "07-31-2025",
+        "companyName": "Macau University of Science and Technology",
+        "website": "https://www.must.edu.mo/",
+        "logo": "assets/template/experience/logo/must-log.png",
+        "internationalizations": [
+            {
+                "language": "pt",
+                "city": "Macau",
+                "country": "China",
+                "role": "Student Research Assistant",
+                "description": "<b>Seasonal and Follow-Up Factors in Hypertensive Populations in China: A Cross-Sectional Study</b><br><br>• Used AI tools to categorize blood pressure measurements by season and analyzed correlations between autumn/winter and spring/summer hypertension incidence.<br>• Employed Excel functions to calculate differences between baseline and first follow-up blood pressure values, and performed gender-based comparative analysis.<br>• Classified follow-ups by telephone, home visit, and outpatient visits; conducted annual statistical analysis of follow-up distribution and corresponding blood pressure measurements."
+            },
+            {
+                "language": "en",
+                "city": "Macau",
+                "country": "China",
+                "role": "Student Research Assistant",
+                "description": "<b>Seasonal and Follow-Up Factors in Hypertensive Populations in China: A Cross-Sectional Study</b><br><br>• Used AI tools to categorize blood pressure measurements by season and analyzed correlations between autumn/winter and spring/summer hypertension incidence.<br>• Employed Excel functions to calculate differences between baseline and first follow-up blood pressure values, and performed gender-based comparative analysis.<br>• Classified follow-ups by telephone, home visit, and outpatient visits; conducted annual statistical analysis of follow-up distribution and corresponding blood pressure measurements."
+            }
+        ],
+        "technologies": [
+            "AI Tools", "Excel", "Data Analysis", "Statistics"
+        ],
+        "medias": [],
+        "backgroundUrl": "assets/template/experience/uberaba.jpg"
     }
 ]
