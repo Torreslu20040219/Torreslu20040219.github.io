@@ -4,7 +4,7 @@ import {
   ViewChild, EventEmitter,
   Renderer2, OnDestroy,
   Output, LOCALE_ID,
-  Inject
+  Inject, AfterViewInit
 } from "@angular/core";
 import { IExperience } from "../experience-interfaces";
 import { SafariDateFormatterPipe } from "../../core/pipe/safari-date-formatter.pipe";
@@ -15,11 +15,12 @@ import { LocalizedDatePipe } from "../../core/pipe/localized-date.pipe";
   templateUrl: "./experience-timeline.component.html",
   styleUrls: [ "./experience-timeline.component.scss" , "experience-timeline.component.reponsivity.scss"]
 })
-export class ExperienceTimelineComponent implements OnInit, OnDestroy {
+export class ExperienceTimelineComponent implements OnInit, AfterViewInit, OnDestroy {
 
   private _experiences: IExperience[] = [];
   private _currentPosition: number;
   private offsetWidth: number;
+  private viewInitialized: boolean = false;
 
   @Output() timelineChanged = new EventEmitter<number>();
 
@@ -51,7 +52,9 @@ export class ExperienceTimelineComponent implements OnInit, OnDestroy {
   set experiences(value: IExperience[]) {
       if(value) {
         this._experiences = value;
-        this.populateExperienceTimeline();
+        if (this.viewInitialized) {
+          this.populateExperienceTimeline();
+        }
       }
   }
 
@@ -66,17 +69,32 @@ export class ExperienceTimelineComponent implements OnInit, OnDestroy {
     });
   }
 
+  ngAfterViewInit(): void {
+    // Ensure ViewChild is initialized before using it
+    this.viewInitialized = true;
+    if (this._experiences && this._experiences.length > 0) {
+      this.populateExperienceTimeline();
+    }
+  }
+
   // Cleanup by removing the event listener on destroy
   public ngOnDestroy() {
     this.removeEventListener();
   }
 
   updateTimelineNavigation() {
+    if (!this.line || !this.line.nativeElement) {
+      return;
+    }
     const activePreviousElem = this.line.nativeElement.querySelector(".milestone.active.current");
-    this.renderer.removeClass(activePreviousElem, "current");
+    if (activePreviousElem) {
+      this.renderer.removeClass(activePreviousElem, "current");
+    }
 
     const targetElem = this.line.nativeElement.querySelector(`div[id-position="${this.currentPosition}"]`);
-    this.renderer.addClass(targetElem, "current");
+    if (targetElem) {
+      this.renderer.addClass(targetElem, "current");
+    }
   }
 
   private daysBetween(startDate: string, endDate: string): number {
@@ -92,6 +110,9 @@ export class ExperienceTimelineComponent implements OnInit, OnDestroy {
   }
 
   populateExperienceTimeline(): void {
+    if (!this.line || !this.line.nativeElement) {
+      return;
+    }
 
     let dates: string[] = this._experiences.map(experience => experience.startAt);
 

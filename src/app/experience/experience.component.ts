@@ -47,11 +47,15 @@ export class ExperienceComponent extends AbstractSwipeSection implements OnInit 
     // Fetch the Experiences from the Data Service
     this.dataService.getExperiences()
         .subscribe((experiences: IExperience[]) => {
-          this.currentPosition = experiences.length;
           this.experiences = experiences;
 
           this.experiencesOrdered = [...experiences];
-          this.experiencesOrdered.sort(this.sortService.sort("position", "desc"));       
+          // Sort by position in ascending order (oldest first, newest last)
+          this.experiencesOrdered.sort(this.sortService.sort("position", "asc"));
+          
+          // Set currentPosition to 1 to show the earliest (oldest) experience first
+          // Since experiences are sorted from oldest to newest, position 1 is the earliest
+          this.currentPosition = 1;
           this.backgroundUrl = this.retrieveBackgroundUrl();
           this.updateMobileNavigationView();
           this.preloadBounderyImages(experiences.map(xp => xp.backgroundUrl));
@@ -76,10 +80,13 @@ export class ExperienceComponent extends AbstractSwipeSection implements OnInit 
   }
 
   private createListSelector(position: number): string {
-    return `li[id="${position}"]`;
+    return `li[data-id="${position}"]`;
   } 
 
   onClickPrevious(targetPos?: number): void {
+    if (!this.orderedList || !this.orderedList.nativeElement) {
+      return;
+    }
     const currElem = this.orderedList.nativeElement.querySelector(this.createListSelector(this.currentPosition));
     this.renderer.removeClass(currElem, this.SELECTED_CLASS);
     this.renderer.addClass(currElem, this.LEAVE_RIGHT_CLASS);
@@ -104,6 +111,9 @@ export class ExperienceComponent extends AbstractSwipeSection implements OnInit 
   }
 
   onClickNext(targetPos?: number): void {
+    if (!this.orderedList || !this.orderedList.nativeElement) {
+      return;
+    }
     const currElem = this.orderedList.nativeElement.querySelector(this.createListSelector(this.currentPosition));
     this.renderer.removeClass(currElem, this.SELECTED_CLASS);
     this.renderer.addClass(currElem, this.LEAVE_LEFT_CLASS);
@@ -136,16 +146,22 @@ export class ExperienceComponent extends AbstractSwipeSection implements OnInit 
     }
   }
 
+  private getExperienceByPosition(position: number): IExperience {
+    return this.experiences.find(exp => exp.position === position);
+  }
+
   private retrieveBackgroundUrl(): string {
-    return this.experiences[this.currentPosition - 1].backgroundUrl;
+    const exp = this.getExperienceByPosition(this.currentPosition);
+    return exp ? exp.backgroundUrl : '';
   }
 
   private updateMobileNavigationView() {
-    this.previousYear = 
-      this.experiences[this.currentPosition - 2]?.startAt || this.experiences[this.currentPosition - 1].startAt;
-    this.currentYear = 
-      this.experiences[this.currentPosition - 1].startAt;
-    this.nextYear = 
-      this.experiences[this.currentPosition]?.startAt || this.experiences[this.currentPosition - 1].startAt;
+    const currentExp = this.getExperienceByPosition(this.currentPosition);
+    const previousExp = this.getExperienceByPosition(this.currentPosition - 1);
+    const nextExp = this.getExperienceByPosition(this.currentPosition + 1);
+    
+    this.previousYear = previousExp?.startAt || currentExp?.startAt || '';
+    this.currentYear = currentExp?.startAt || '';
+    this.nextYear = nextExp?.startAt || currentExp?.startAt || '';
   }
 }
