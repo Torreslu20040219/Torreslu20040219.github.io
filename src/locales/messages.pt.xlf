@@ -156,8 +156,8 @@
         <note priority="1" from="description">posts</note>
       </trans-unit>
        <trans-unit id="synopsis" datatype="html">
-         <source>I make full use of the winter and summer vacations to conduct internships on career exploration</source>
-         <target>Aproveito ao máximo as férias de inverno e verão para realizar estágios na exploração de carreira</target>
+         <source>I make full use of the winter and summer vacations to conduct internships on career exploration, whether it is the practice of public health or nutrition, I have rich experience to meet the needs of the schools.</source>
+         <target>Aproveito ao máximo as férias de inverno e verão para realizar estágios na exploração de carreira, seja na prática de saúde pública ou nutrição, tenho experiência rica para atender às necessidades das escolas.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/posts/posts.component.html</context>
           <context context-type="linenumber">23</context>
