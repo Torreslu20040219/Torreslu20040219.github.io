@@ -26,13 +26,13 @@
 }
 
 .dialog-container .console .hello {
-	font-size: 60px;
+	font-size: 40px;
     font-weight: 600;
     color: #222f5c;
 }
 
 .dialog-container .console .txt-rotate {
-	font-size: 40px;
+	font-size: 20px;
     color: #576183;
 	font-weight: 600;
 	margin-top: 10px;
